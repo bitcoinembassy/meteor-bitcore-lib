@@ -1,5 +1,5 @@
 Package.describe({
-  summary: 'Bitcore Library - A pure and powerful JavaScript Bitcoin library',
+  summary: 'A pure and powerful JavaScript Bitcoin library',
   version: '0.13.8',
   name: 'frabrunelle:bitcore-lib',
   git: 'https://github.com/frabrunelle/meteor-bitcore-lib.git'
@@ -24,6 +24,6 @@ Package.onTest(function (api) {
     'tinytest',
     'frabrunelle:bitcore-lib'
   ]);
-  
+
   api.addFiles('bitcore-lib-tests.js');
 });
