@@ -1,0 +1,1 @@
+bitcore = require('bitcore-lib');
