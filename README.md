@@ -1,6 +1,6 @@
-# Bitcore Library for Meteor
+# [Bitcore Library](https://github.com/bitpay/bitcore-lib) for Meteor
 
-[Bitcore Library](https://github.com/bitpay/bitcore-lib) (v0.13.8) is a pure and powerful JavaScript Bitcoin library.
+A pure and powerful JavaScript Bitcoin library.
 
 ## Installation
 
