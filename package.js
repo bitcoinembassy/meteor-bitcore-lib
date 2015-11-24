@@ -1,18 +1,18 @@
 Package.describe({
   summary: 'A pure and powerful JavaScript Bitcoin library',
-  version: '0.13.8',
+  version: '0.13.10',
   name: 'frabrunelle:bitcore-lib',
   git: 'https://github.com/frabrunelle/meteor-bitcore-lib.git'
 });
 
 Npm.depends({
-  'bitcore-lib':'0.13.8'
+  'bitcore-lib':'0.13.10'
 });
 
 Package.onUse(function (api) {
   api.versionsFrom('1.2');
 
-  api.use('cosmos:browserify@0.8.3');
+  api.use('cosmos:browserify@0.9.2');
 
   api.addFiles('bitcore.browserify.js');
 

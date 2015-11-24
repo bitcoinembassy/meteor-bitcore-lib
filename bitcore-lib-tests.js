@@ -1,5 +1,5 @@
 Tinytest.add('Bitcore Library is correctly loaded', function (test) {
-  test.equal(bitcore.version, 'v0.13.8');
+  test.equal(bitcore.version, 'v0.13.10');
 });
 
 Tinytest.add('Bitcore Library is working', function (test) {
